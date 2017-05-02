@@ -1,1 +1,3 @@
 # Lab4A-GarvitPugalia
+
+USED TO COPY ONTO EDISON AND TEST GIT!
