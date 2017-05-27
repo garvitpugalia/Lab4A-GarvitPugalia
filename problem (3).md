@@ -1,19 +1,18 @@
 
-## CS31/CS32/CS33 [the class this problem is for]
+## CS32
 
-### Your Problem Title
+### Recursively replace a certain character in a string
 
-*Contributed by Your Name*.
+*Contributed by Garvit Pugalia*.
 
-Your problem description. Remember to wrap in-line code in `ticks`!
+Write a recursive function `void replace(char* word, char from, char to)` to recursively traverse through the string `word` and replace all occurrences of the character `from` to the character `to`. 
 
 #### Example
 
-Example inputs and outputs, if helpful. If you don't have this, remove this section.
+Input: "There is a small brick house down the road", 'a', 'b'
+Output: "There is b smbll brick house down the robd"
 
 #### Solution
-
-If you solution would benefit from a textual description, put that here. If you only want to provide the code, then remove these sentences!
 
 ```cpp
 void replace(char* word, char from, char to) {
