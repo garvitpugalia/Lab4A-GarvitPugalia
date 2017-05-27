@@ -10,7 +10,9 @@ Write a function `bool checkAnagram(const char a[], const char b[])` to check if
 #### Example
 
 checkAnagram("silent", "listen") == true
+
 checkAnagram("computer", "compute") == false
+
 checkAnagram("maths", "thames") == false
 
 #### Solution
