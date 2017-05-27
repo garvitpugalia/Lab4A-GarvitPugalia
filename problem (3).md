@@ -10,6 +10,7 @@ Write a recursive function `void replace(char* word, char from, char to)` to rec
 #### Example
 
 Input: "There is a small brick house down the road", 'a', 'b'
+
 Output: "There is b smbll brick house down the robd"
 
 #### Solution
