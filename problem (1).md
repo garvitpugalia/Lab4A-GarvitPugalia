@@ -1,19 +1,19 @@
 
-## CS31/CS32/CS33 [the class this problem is for]
+## CS31
 
-### Your Problem Title
+### Check if two C strings are anagrams
 
-*Contributed by Your Name*.
+*Contributed by Garvit Pugalia*.
 
-Your problem description. Remember to wrap in-line code in `ticks`!
+Write a function `bool checkAnagram(const char a[], const char b[])` to check if two strings are anagrams. You can assume that the string contains only alphabets a-z. An anagram is a word formed by rearranging the letters of another word. For example, "listen" is an anagram of "silent".
 
 #### Example
 
-Example inputs and outputs, if helpful. If you don't have this, remove this section.
+checkAnagram("silent", "listen") == true
+checkAnagram("computer", "compute") == false
+checkAnagram("maths", "thames") == false
 
 #### Solution
-
-If you solution would benefit from a textual description, put that here. If you only want to provide the code, then remove these sentences!
 
 ```cpp
 bool checkAnagram(const char a[], const char b[]) {
